@@ -1,5 +1,5 @@
 import { createClient } from "@supabase/supabase-js";
-import { HuggingFaceTransformersEmbeddings } from "@langchain/community/embeddings/huggingface_transformers";
+import { embedQuery } from "../src/services/database/retriever";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -13,11 +13,8 @@ async function testRetrieval(userQuery: string) {
   console.log(`\n🔍 Query: "${userQuery}"`);
   
   // 1. Generate local embedding (The "Breaking Down" phase)
-  console.log("🛠️  Generating local embedding via LangChain...");
-  const model = new HuggingFaceTransformersEmbeddings({
-    model: "Xenova/all-MiniLM-L6-v2",
-  });
-  const vector = await model.embedQuery(userQuery);
+  console.log("🛠️  Generating weightless embedding via Public Inference API...");
+  const vector = await embedQuery(userQuery);
 
   // 2. Vector Search in Supabase (The "Coordinate Matching" phase)
   console.log("🛰️  Matching coordinates in Supabase...");

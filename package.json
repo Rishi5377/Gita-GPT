@@ -10,7 +10,6 @@
     "ingest": "tsx scripts/ingest_chunks.ts"
   },
   "dependencies": {
-    "@huggingface/transformers": "^4.0.1",
     "@langchain/community": "^1.1.27",
     "@langchain/core": "^1.1.39",
     "@langchain/groq": "^1.2.0",

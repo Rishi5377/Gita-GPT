@@ -1,30 +1,19 @@
 import { createClient } from "@supabase/supabase-js";
-import { HuggingFaceTransformersEmbeddings } from "@langchain/community/embeddings/huggingface_transformers";
-import { env } from "@huggingface/transformers";
 
-// Documented configuration for weightless serverless environments
-env.allowLocalModels = false;
-
-let embeddingsInstance: HuggingFaceTransformersEmbeddings | null = null;
+import { embedText } from "../../../scripts/embedder";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.SUPABASE_SERVICE_KEY!
 );
 
-async function getEmbeddings() {
-  if (embeddingsInstance) return embeddingsInstance;
-  
-  embeddingsInstance = new HuggingFaceTransformersEmbeddings({
-    model: "Xenova/all-MiniLM-L6-v2", 
-  });
-  
-  return embeddingsInstance;
-}
-
 export async function embedQuery(query: string): Promise<number[]> {
-  const model = await getEmbeddings();
-  return await model.embedQuery(query);
+  try {
+    return await embedText(query);
+  } catch (error) {
+    console.error("Direct embedding error:", error);
+    throw error;
+  }
 }
 
 export async function retrieveContext(query: string) {

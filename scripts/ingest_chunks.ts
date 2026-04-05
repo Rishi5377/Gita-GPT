@@ -98,7 +98,7 @@ async function ingestPDF(source: typeof SOURCE_MAP[0], cache: Map<string, string
 
   // Embed all chunks via HuggingFace (free, 384-dim)
   console.log(`   → Generating embeddings via HuggingFace...`);
-  const embeddings = await embedBatch(texts, 1, 0); // MiniLM is very fast on API
+  const embeddings = await embedBatch(texts, 1); // MiniLM is very fast on API
 
   // Build rows with shloka_id linking
   const rows = texts.map((text: string, i: number) => {
