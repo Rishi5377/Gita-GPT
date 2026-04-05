@@ -1,0 +1,40 @@
+{
+  "shloka_id": "BG_2.62",
+  "chapter": 2,
+  "verse": "62",
+  "sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते।\nसङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते॥",
+  "transliteration": "dhyāyato viṣayān puṁsaḥ saṅgas teṣūpajāyate | saṅgāt sañjāyate kāmaḥ kāmāt krodho ’bhijāyate ||",
+  "literal_meaning": "While contemplating sense-objects, attachment arises in a person; from attachment, desire is born; from desire, anger manifests.",
+  "contextual_meaning": "A micro-map of how unguarded attention snowballs into destructive emotion: attention → attachment → craving → rage.",
+  "themes": [
+    "Attention",
+    "Attachment",
+    "Craving",
+    "Anger",
+    "Addiction"
+  ],
+  "emotions": {
+    "primary": [
+      "curiosity",
+      "fascination"
+    ],
+    "secondary": [
+      "longing",
+      "frustration"
+    ],
+    "shadow": [
+      "envy",
+      "shame",
+      "rage"
+    ]
+  },
+  "psychological_state": "Pre-addictive loop: repeated mental rehearsal of a reward sensitizes the limbic system, narrowing perception until frustration flips into aggression.",
+  "trigger_scenario": "Scrolling late-night Instagram reels; each swipe deepens the hook, the feed stops loading, and you hurl the phone at the wall.",
+  "keywords": [
+    "doom-scrolling",
+    "craving",
+    "anger-outburst",
+    "sensitization"
+  ],
+  "anchor_text": "Watch your thoughts; unchecked, they become wants, then wrath."
+}

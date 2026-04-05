@@ -1,0 +1,48 @@
+{
+  "shloka_id": "BG_1.5",
+  "chapter": 1,
+  "verse": "5",
+  "sanskrit": "धृष्टकेतुश्चेकितानः काशिराजश्च वीर्यवान्। पुरुजित्कुन्तिभोजश्च शैब्यश्च नरपुङ्गवः॥",
+  "transliteration": "dhṛṣṭaketuś cekitānaḥ kāśirājaś ca vīryavān purujit-kuntibhojaś ca śaibyaś ca nara-puṅgavaḥ",
+  "literal_meaning": "Dhṛṣṭaketu, Cekitāna, the valiant king of Kāśī, Purujit, Kuntibhoja, and Śaibya—each a bull among men.",
+  "contextual_meaning": "Arjuna’s mind is cataloguing the mighty warriors on both sides, unconsciously rehearsing who may die, a mental roll-call of attachment that foreshadows his impending collapse. By naming beloved heroes, he is already grieving their future absence, revealing how the mind rehearses loss before the first arrow is shot.",
+  "themes": [
+    "Anticipatory Grief",
+    "Attachment to Identity",
+    "Moral Injury",
+    "Impermanence",
+    "Heroic Ideal vs Human Vulnerability"
+  ],
+  "emotions": {
+    "primary": [
+      "Pride",
+      "Apprehension",
+      "Loyalty"
+    ],
+    "secondary": [
+      "Nostalgia",
+      "Flickering Guilt",
+      "Tight-chested Dread"
+    ],
+    "shadow": [
+      "Fear of Survivor’s Guilt",
+      "Unconscious Death-wish",
+      "Shame at Doubt"
+    ]
+  },
+  "psychological_state": "A leader mentally rehearsing the potential deaths of respected peers, caught between admiration for their valor and dread of being the one who survives them.",
+  "trigger_scenario": "A project manager reviewing the résumés of team members before announcing layoffs, proud of their talent yet knowing their decisions may destroy these same careers.",
+  "keywords": [
+    "heroic identity",
+    "anticipatory grief",
+    "survivor guilt",
+    "moral inventory",
+    "attachment",
+    "vīryavān",
+    "nara-puṅgava",
+    "battlefield roll-call",
+    "impending loss",
+    "cognitive rehearsal"
+  ],
+  "anchor_text": "Naming the beloved is the first arrow of grief."
+}

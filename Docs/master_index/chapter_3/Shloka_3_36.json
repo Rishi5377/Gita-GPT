@@ -1,0 +1,40 @@
+{
+  "shloka_id": "BG_3.36",
+  "chapter": 3,
+  "verse": "36",
+  "sanskrit": "अथ केन प्रयुक्तोऽयं पापं चरति पूरुषः।\nअनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः॥",
+  "transliteration": "arjuna uvāca\natha kena prayukto ’yaṁ pāpaṁ carati pūruṣaḥ\nanicchann api vārṣṇeya balād iva niyojitaḥ",
+  "literal_meaning": "Arjuna said: Then, by what is this man impelled to commit sin, O descendant of Vṛṣṇi, even against his will, as if forced by strength?",
+  "contextual_meaning": "Arjuna asks why people act against their own values, feeling compelled toward harmful choices as if an external force overrides their will.",
+  "themes": [
+    "Compulsion",
+    "Moral failure",
+    "Agency",
+    "Inner conflict",
+    "Shadow"
+  ],
+  "emotions": {
+    "primary": [
+      "perplexity",
+      "moral distress"
+    ],
+    "secondary": [
+      "helplessness",
+      "curiosity"
+    ],
+    "shadow": [
+      "self-reproach",
+      "fear of dark inner drives"
+    ]
+  },
+  "psychological_state": "ego-dystonic guilt—behaviors clash with self-image, producing confusion about autonomous control",
+  "trigger_scenario": "After vowing to quit doom-scrolling or binge-eating, you relapse at 2 a.m., feeling hijacked by an inner autopilot",
+  "keywords": [
+    "compulsion",
+    "sin",
+    "force",
+    "against will",
+    "impelled"
+  ],
+  "anchor_text": "Why do we act against our own will, as if forced?"
+}

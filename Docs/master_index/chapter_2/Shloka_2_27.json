@@ -1,0 +1,42 @@
+{
+  "shloka_id": "BG_2.27",
+  "chapter": 2,
+  "verse": "27",
+  "sanskrit": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च।\nतस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि॥",
+  "transliteration": "jātasya hi dhruvo mṛtyur dhruvaṃ janma mṛtasya ca |\ntasmād aparihārye ’rthe na tvaṃ śocitum arhasi ||",
+  "literal_meaning": "For one who is born, death is certain; for one who is dead, birth is certain. Therefore, for what is unavoidable, you should not grieve.",
+  "contextual_meaning": "Krishna reframes Arjuna’s anticipatory grief by anchoring him in the impersonal law of existence: birth and death are non-negotiable events in a continuous cycle. Psychologically, this is an exposure-plus-cognitive-restructuring intervention: expose the inevitability of loss, then re-label grief as an optional, maladaptive response to a fixed datum.",
+  "themes": [
+    "Dharma",
+    "Impermanence",
+    "Kṣatriya-duty",
+    "Cycle-of-rebirth",
+    "Anticipatory-grief"
+  ],
+  "emotions": {
+    "primary": [
+      "anticipatory-grief",
+      "dread"
+    ],
+    "secondary": [
+      "guilt",
+      "confusion"
+    ],
+    "shadow": [
+      "death-anxiety",
+      "existential-terror",
+      "denial-of-mortality"
+    ]
+  },
+  "psychological_state": "Arjuna is frozen in anticipatory mourning; his sympathetic nervous system is on high alert, scanning for future losses rather than present realities.",
+  "trigger_scenario": "A paramedic-parent hesitates to perform a life-saving intubation on a stranger’s child, fearing that the emotional cost of witnessing another child’s death will re-trigger memories of their own child’s recent passing.",
+  "keywords": [
+    "inevitable",
+    "cycle",
+    "grief",
+    "duty",
+    "birth",
+    "death"
+  ],
+  "anchor_text": "Grieve not over the inevitable cycle of birth and death."
+}

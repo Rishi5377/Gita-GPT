@@ -1,0 +1,40 @@
+{
+  "shloka_id": "BG_4.20",
+  "chapter": 4,
+  "verse": "20",
+  "sanskrit": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः।\nकर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः॥",
+  "transliteration": "tyaktvā karma-phalāsaṅgaṃ nitya-tṛpto nirāśrayaḥ |\nkarmaṇy abhipravṛtto ’pi naiva kiñcit karoti saḥ ||",
+  "literal_meaning": "Having abandoned attachment to the fruits of action, ever-content, without any support, though fully engaged in activity, he indeed does nothing at all.",
+  "contextual_meaning": "A person who has internalized that self-worth is not contingent on outcomes experiences 'flow'—intense engagement without existential anxiety.",
+  "themes": [
+    "Dharma",
+    "Renunciation",
+    "Flow",
+    "Self-efficacy",
+    "Non-attachment"
+  ],
+  "emotions": {
+    "primary": [
+      "Serenity",
+      "Competence"
+    ],
+    "secondary": [
+      "Curiosity",
+      "Playfulness"
+    ],
+    "shadow": [
+      "Performance-anxiety",
+      "Shame",
+      "Perfectionism"
+    ]
+  },
+  "psychological_state": "Secure-functioning: action is intrinsically rewarding; success/failure do not threaten identity.",
+  "trigger_scenario": "A coder writes open-source software for the joy of solving problems; downloads, bugs, and praise are watched with interest but do not alter her self-esteem or sleep.",
+  "keywords": [
+    "flow",
+    "non-attachment",
+    "intrinsic motivation",
+    "secure self-esteem"
+  ],
+  "anchor_text": "Work wholeheartedly, untouched by craving for results."
+}

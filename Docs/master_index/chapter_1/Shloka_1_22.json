@@ -1,0 +1,38 @@
+{
+  "shloka_id": "BG_1.22",
+  "chapter": 1,
+  "verse": "22",
+  "sanskrit": "कैर्मया सह योद्धव्यमस्मिन् रणसमुद्यमे।",
+  "transliteration": "kair mayā saha yoddhavyam asmin raṇa-samudyame",
+  "literal_meaning": "With-whom / by-me / together / must-be-fought / in-this / war-enterprise",
+  "contextual_meaning": "Arjuna, caught between duty and attachment, asks to survey the battlefield to identify exactly whom he will have to kill, revealing the ego’s need to personalize conflict before it can commit to action.",
+  "themes": [
+    "Moral Injury",
+    "Identity Conflict",
+    "Anticipatory Guilt",
+    "Attachment"
+  ],
+  "emotions": {
+    "primary": [
+      "anxiety",
+      "dread"
+    ],
+    "secondary": [
+      "confusion",
+      "loyalty-conflict"
+    ],
+    "shadow": [
+      "dissociation",
+      "moral-numbing"
+    ]
+  },
+  "psychological_state": "Pre-action dissociative scanning—hyper-vigilant assessment of threats to ego-identity before potential moral injury.",
+  "trigger_scenario": "A team-lead told to downsize lifelong colleagues asks HR for the final list of names, needing to see each face before clicking 'send' on the termination email.",
+  "keywords": [
+    "survey",
+    "must fight",
+    "with whom",
+    "this war"
+  ],
+  "anchor_text": "See every face you must fight, then choose duty over personal ties."
+}

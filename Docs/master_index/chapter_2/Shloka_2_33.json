@@ -1,0 +1,39 @@
+{
+  "shloka_id": "BG_2.33",
+  "chapter": 2,
+  "verse": "33",
+  "sanskrit": "अथ चेत्त्वमिमं धर्म्यं संग्रामं न करिष्यसि।\nततः स्वधर्मं कीर्तिं च हित्वा पापमवाप्स्यसि॥",
+  "transliteration": "atha cet tvam imaṃ dharmyaṃ saṅgrāmaṃ na kariṣyasi |\ntataḥ svadharmaṃ kīrtiṃ ca hitvā pāpam avāpsyasi ||",
+  "literal_meaning": "If (cet) you (tvam) do not perform (na kariṣyasi) this (imam) righteous (dharmyam) battle (saṅgrāmam), then (tataḥ) having abandoned (hitvā) your own duty (svadharmam) and (ca) reputation (kīrtim), you will incur (avāpsyasi) sin (pāpam).",
+  "contextual_meaning": "Krishna confronts Arjuna with the psychological cost of avoidance: backing down will fracture his self-concept, breed guilt, and exile him from the community whose respect sustains his identity.",
+  "themes": [
+    "Dharma",
+    "Social reputation",
+    "Moral injury",
+    "Avoidance",
+    "Identity"
+  ],
+  "emotions": {
+    "primary": [
+      "Shame",
+      "Fear of disgrace"
+    ],
+    "secondary": [
+      "Anxiety",
+      "Guilt"
+    ],
+    "shadow": [
+      "Secret wish to flee",
+      "Rage at being cornered"
+    ]
+  },
+  "psychological_state": "Moral paralysis under anticipatory shame; ego-syntonic warrior identity threatened by ego-dystonic avoidance.",
+  "trigger_scenario": "A respected surgeon contemplating refusal to operate on a high-risk patient, fearing failure and media backlash.",
+  "keywords": [
+    "reputation",
+    "duty",
+    "sin",
+    "neglect"
+  ],
+  "anchor_text": "Avoiding right action erodes self-respect and leaves lasting guilt."
+}

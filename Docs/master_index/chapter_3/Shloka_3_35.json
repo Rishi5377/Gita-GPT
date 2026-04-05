@@ -1,0 +1,42 @@
+{
+  "shloka_id": "BG_3.35",
+  "chapter": 3,
+  "verse": "35",
+  "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः॥",
+  "transliteration": "śreyān sva-dharmo viguṇaḥ para-dharmāt sv-anuṣṭhitāt\nsva-dharme nidhanaṁ śreyaḥ para-dharmo bhayāvahaḥ",
+  "literal_meaning": "Better is one’s own duty, though imperfect, than the duty of another well-performed; death in one’s own duty is better, the duty of another is fraught with danger.",
+  "contextual_meaning": "Authentic self-alignment outweighs perfectionistic imitation; psychological safety lies in congruence with one’s innate nature rather than borrowed roles.",
+  "themes": [
+    "Authenticity",
+    "Dharma",
+    "Self-concept",
+    "Role-congruence",
+    "Fear of judgment"
+  ],
+  "emotions": {
+    "primary": [
+      "Anxiety",
+      "Self-doubt"
+    ],
+    "secondary": [
+      "Guilt",
+      "Shame",
+      "Envy"
+    ],
+    "shadow": [
+      "Imposter syndrome",
+      "Perfectionism",
+      "Fear of rejection"
+    ]
+  },
+  "psychological_state": "Arjuna oscillates between social comparison and existential dread, fearing that his warrior identity is flawed yet dreading the dissonance of adopting a pacifist mask.",
+  "trigger_scenario": "A software engineer from a modest background is offered a high-status sales job at a glamorous startup; the pay is triple but the role demands extroversion that feels fake, triggering panic attacks and imposter fears.",
+  "keywords": [
+    "authenticity",
+    "role-fit",
+    "perfectionism",
+    "imposter",
+    "dissonance"
+  ],
+  "anchor_text": "Stay true to your nature; imitating others invites inner danger."
+}

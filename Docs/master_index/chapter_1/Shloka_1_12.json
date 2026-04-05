@@ -1,0 +1,49 @@
+{
+  "shloka_id": "BG_1.12",
+  "chapter": 1,
+  "verse": "12",
+  "sanskrit": "तस्य सञ्जनयन् हर्षं कुरुवृद्धः पितामहः। सिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान्॥",
+  "transliteration": "tasya sañjanayan harṣaṃ kuru-vṛddhaḥ pitāmahaḥ | siṃha-nādaṃ vinadyoccaiḥ śaṅkhaṃ dadhmau pratāpavān ||",
+  "literal_meaning": "His grandfather, the eldest of the Kurus, the mighty one, loudly sounding a lion-roar, blew his conch to generate joy in him.",
+  "contextual_meaning": "Bhishma, the revered patriarch, instinctively senses Duryodhana’s despair and responds with a performative act of reassurance—an ancestral attempt to soothe existential dread by amplifying the illusion of strength. Psychologically, it mirrors how we rally behind external symbols (titles, lineage, loud achievements) to mask the inner knowledge of inevitable defeat, revealing the human habit of using grandiosity to delay facing painful truths.",
+  "themes": [
+    "Generational Burden",
+    "Illusory Strength",
+    "Existential Denial",
+    "Performative Reassurance",
+    "Duty vs. Doom"
+  ],
+  "emotions": {
+    "primary": [
+      "Anxiety",
+      "Bravado",
+      "Despair"
+    ],
+    "secondary": [
+      "Reassurance",
+      "Pride",
+      "Tension",
+      "Foreboding"
+    ],
+    "shadow": [
+      "Terror of Annihilation",
+      "Betrayal of the Inner Child",
+      "Unspoken Grief"
+    ]
+  },
+  "psychological_state": "A person who rallies their public image to a war-cry pitch to drown out the quiet inner voice predicting failure.",
+  "trigger_scenario": "A CEO about to announce quarterly losses who opens the meeting with a booming video montage of past victories to keep shareholders hopeful.",
+  "keywords": [
+    "pitāmaha",
+    "siṃha-nāda",
+    "harṣa",
+    "pratāpavān",
+    "generational anxiety",
+    "performative courage",
+    "impending defeat",
+    "conch symbolism",
+    "denial",
+    "bravado"
+  ],
+  "anchor_text": "Grand gestures can’t silence the quiet fear of inevitable loss."
+}

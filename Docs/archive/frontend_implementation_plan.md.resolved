@@ -1,0 +1,72 @@
+# Implementation Plan: Phase 7 — Gita Mirror Frontend (v2)
+
+This plan covers the visual and functional birth of the **Gita Mirror**. We will transform your 15,144 vector chunks and 701 enriched shlokas into a premium, emotion-driven conversational interface.
+
+---
+
+## Technical Stack
+- **Framework**: Next.js 15+ (App Router).
+- **Styling**: TailwindCSS + Vanilla CSS (Glassmorphism).
+- **Animations**: Framer Motion (Ceremonial transitions).
+- **Icons**: Lucide React.
+- **Backend**: Supabase (Vector Search) + Groq (Llama 3/Kimi for Chat).
+
+---
+
+## Design System: "Divine Graphite & Electric Wisdom"
+- **Background**: Deep Indigo Gradient (`bg-slate-950`).
+- **Surface**: Translucent Glass (`backdrop-blur-xl border-white/10`).
+- **Typography**:
+    - UI: `Inter` (Clean, Modern).
+    - Shlokas: `Playfair Display` (Elegant, Classic).
+- **Persona**: The UI should feel like a "Mirror" — reflective, calm, and insightful.
+
+---
+
+## User Review Required
+
+> [!IMPORTANT]
+> **AI Persona**: We will implement a "Mirror" prompting strategy. Instead of a generic chatbot, the AI will use the `anchor_text` and `emotions` to mirror the user's situation back to them before offering wisdom.
+
+---
+
+## Proposed Changes
+
+### [Component] Core Application Shell
+
+#### [NEW] [Layout & Navigation]
+- **Glass Header**: Minimalist branding.
+- **Dynamic Background**: Subtle animated aurora effect based on the detected emotion.
+
+#### [NEW] [Emotion Selector / situation Input]
+- A landing hero that asks: "What is the weight on your mind today?"
+- Quick-pick emotion bubbles (Anxiety, Doubt, Duty, Grief).
+
+### [Component] Retrieval & Chat Engine
+
+#### [NEW] [match_gita_metadata RPC]
+- A specialized PostgreSQL function to search by `themes` and `emotions` in addition to pure vector similarity.
+
+#### [NEW] [api/chat/route.ts]
+- Streaming Next.js route.
+- **Hybrid Retrieval**: Fetch 3 vector chunks + the Master Shloka metadata for context.
+
+---
+
+## Build Order
+1. **Step 1**: Initialize Next.js in the current directory.
+2. **Step 2**: Create the Supabase `match_gita_metadata` RPC.
+3. **Step 3**: Implement the "Mirror Hero" UI.
+4. **Step 4**: Wire up the Vector Search + Chat API.
+
+---
+
+## Verification Plan
+
+### Manual Verification
+- Test input: "I feel stuck in my career." 
+- Expected: AI retrieves BG 2.47 (Duty) and uses the `anchor_text` for a concise, emotion-aware response.
+
+### Visual Validation
+- Verify 60FPS animations during shloka reveal.
+- Ensure dark mode contrast passes accessibility (WCAG AA).

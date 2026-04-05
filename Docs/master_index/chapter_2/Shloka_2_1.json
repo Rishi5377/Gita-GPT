@@ -1,0 +1,38 @@
+{
+  "shloka_id": "BG_2.1",
+  "chapter": 2,
+  "verse": "1",
+  "sanskrit": "संजय उवाच\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम्।\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः॥",
+  "transliteration": "sañjaya uvāca\ntaṃ tathā kṛpayāviṣṭam aśru-pūrṇākulekṣaṇam\nviṣīdantam idaṃ vākyam uvāca madhusūdanaḥ",
+  "literal_meaning": "Sanjaya said: To him—thus overcome by compassion, eyes turbid with tears, despondent—Madhusūdana spoke these words.",
+  "contextual_meaning": "Arjuna’s visible emotional collapse (tears, silence, trembling) signals a full-blown acute stress reaction. Krishna’s entry marks the shift from battlefield narrative to inner therapy session.",
+  "themes": [
+    "Compassion vs. wisdom",
+    "Emotional overwhelm",
+    "Therapeutic alliance",
+    "Readiness for intervention"
+  ],
+  "emotions": {
+    "primary": [
+      "grief",
+      "compassion"
+    ],
+    "secondary": [
+      "confusion",
+      "shame"
+    ],
+    "shadow": [
+      "rage at self",
+      "fear of killing identity"
+    ]
+  },
+  "psychological_state": "Acute moral injury with dissociative shutdown; compassion misdirected toward transient bodies rather than eternal selves.",
+  "trigger_scenario": "A paramedic freezes at a mass-casualty scene, unable to triage because every victim reminds her of her own child.",
+  "keywords": [
+    "tears",
+    "compassion",
+    "misplaced empathy",
+    "shutdown"
+  ],
+  "anchor_text": "When despair floods, the first step is to speak your pain aloud."
+}

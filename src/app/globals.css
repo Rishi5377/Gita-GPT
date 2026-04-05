@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+  
+  --color-background: #1a1919;
+  --color-sidebar: #212020;
+  --color-foreground: #ececec;
+  --color-muted: #8e8e8e;
+  --color-primary: #d4a373; /* Warm gold accent for Krishna's wisdom */
+  --color-border: rgba(255, 255, 255, 0.08);
+  
+  --radius: 0.75rem;
+
+  --animate-reveal: reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.15) 0px, transparent 50%);
+    min-height: 100vh;
+  }
+}
+
+.glass {
+  @apply backdrop-blur-xl bg-white/5 border border-white/10 shadow-2xl;
+}

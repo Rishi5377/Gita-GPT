@@ -1,0 +1,41 @@
+{
+  "shloka_id": "BG_2.5",
+  "chapter": 2,
+  "verse": "5",
+  "sanskrit": "गुरूनहत्वा हि महानुभावान् श्रेयो भोक्तुं भैक्ष्यमपीह लोके । हत्वार्थकामांस्तु गुरूनिहैव भुञ्जीय भोगान् रुधिरप्रदिग्धान् ॥",
+  "transliteration": "gurūn ahatvā hi mahānubhāvān śreyo bhoktuṃ bhaikṣyam apīha loke | hatvārtha-kāmāṃs tu gurūn ihaiva bhuñjīya bhogān rudhira-pradigdhān ||",
+  "literal_meaning": "Not having killed the great-souled teachers, it is better to enjoy alms even in this world; but having killed the teachers here itself, one would have to enjoy enjoyments stained with blood.",
+  "contextual_meaning": "Arjuna experiences a moral paralysis: he would rather live as a beggar than survive on the moral debt of killing his mentors, revealing an acute fear of ego-dystonic action that would forever contaminate his self-image.",
+  "themes": [
+    "Moral injury",
+    "Contamination anxiety",
+    "Guru-devotion",
+    "Renunciation",
+    "Blood guilt"
+  ],
+  "emotions": {
+    "primary": [
+      "moral disgust",
+      "shame",
+      "loyalty"
+    ],
+    "secondary": [
+      "self-loathing",
+      "indecisiveness",
+      "idealization of elders"
+    ],
+    "shadow": [
+      "repressed rage at elders' betrayal",
+      "wish to be absolved of responsibility"
+    ]
+  },
+  "psychological_state": "Obsessive-compulsive doubt: an ego-syntonic value (non-violence to mentors) collides with a dharma-syntonic duty (warrior code), producing intrusive images of blood-tainted rewards.",
+  "trigger_scenario": "A whistle-blower asked to expose a corrupt yet beloved mentor must choose between career advancement and lifelong self-contempt.",
+  "keywords": [
+    "blood guilt",
+    "moral contamination",
+    "guru betrayal",
+    "altruistic avoidance"
+  ],
+  "anchor_text": "Choose integrity over victory when the cost is your soul."
+}

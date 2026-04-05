@@ -1,0 +1,41 @@
+{
+  "shloka_id": "BG_3.12",
+  "chapter": 3,
+  "verse": "12",
+  "sanskrit": "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः। तैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः॥",
+  "transliteration": "iṣṭān bhogān hi vo devā dāsyante yajña-bhāvitāḥ | tair dattān apradāyaibhyo yo bhuṅkte stena eva saḥ ||",
+  "literal_meaning": "The demigods, nourished by sacrifice, will indeed bestow upon you the desired enjoyments. One who enjoys what is given by them without offering back is verily a thief.",
+  "contextual_meaning": "Psychologically, the verse warns that taking from life without reciprocity breeds unconscious guilt and a ‘thief’ self-image, eroding authentic self-esteem.",
+  "themes": [
+    "Reciprocity",
+    "Gratitude",
+    "Social-contract",
+    "Moral-guilt",
+    "Self-esteem"
+  ],
+  "emotions": {
+    "primary": [
+      "Guilt",
+      "Obligation"
+    ],
+    "secondary": [
+      "Gratitude",
+      "Anxiety"
+    ],
+    "shadow": [
+      "Entitlement",
+      "Shame",
+      "Fear-of-scarcity"
+    ]
+  },
+  "psychological_state": "Moral indebtedness; covert guilt when receiving without giving back.",
+  "trigger_scenario": "Using open-source software daily but never contributing code, donations, or thanks—then feeling uneasy when asked to give back.",
+  "keywords": [
+    "free-loader",
+    "guilt",
+    "entitlement",
+    "reciprocity",
+    "thief"
+  ],
+  "anchor_text": "Give back to life what you take, or guilt will steal your peace."
+}

@@ -1,0 +1,55 @@
+# Scaffold Master Index Directory Structure
+
+This plan covers the implementation of the new, highly-organized local file structure for the Gita Mirror master index. This structure replaces the single unmanageable JSON array with a clean, review-friendly directory tree.
+
+## User Review Required
+
+> [!IMPORTANT]
+> The `ai-engineer` skill you requested is brilliant for this, but it is currently excluded from my active context due to memory constraints! However, the **`ai-ml`** skill combined with my direct coding capabilities provides the exact same LLM workflow, prompting, and RAG architectural skills. I will execute the work using these capabilities.
+
+Please review the proposed approach below and let me know if you approve this scaffolding plan.
+
+## Proposed Changes
+
+We will create a Node.js/TypeScript script that automatically scaffolds the entire directory and file tree for all 18 chapters of the Bhagavad Gita.
+
+### Master Index Scaffolding
+
+#### [NEW] `scripts/scaffold_index.ts`
+We will write a script that performs the following logic:
+1. Creates a root directory: `Docs/master_index/`.
+2. Loops through chapters 1 to 18. Inside the root directory, it will create subdirectories `chapter_1`, `chapter_2`, ..., `chapter_18`.
+3. Within each chapter folder, it will create files grouped by batches of 10 shlokas (e.g., `Shloka_1_to_10.json`, `Shloka_11_to_20.json`, etc.). Since chapters have varying numbers of shlokas (e.g., Chapter 1 has 47, Chapter 2 has 72), the script will use the exact shloka counts for each chapter.
+4. Each `.json` file will be initialized with a JSON array containing the exact template schema you provided for manual review:
+   ```json
+   {
+     "chapter": 2,
+     "shloka": 47,
+     "themes": ["purpose", "action", "detachment", "duty", "karma"],
+     "emotions": ["directionless", "burnout", "confusion"],
+     "sources": {
+       "g279": { "page": null, "chunk_id": null },
+       "ttd": { "page": null, "chunk_id": null },
+       "bg_as_it_is": { "page": null, "chunk_id": null },
+       "swamy_bg": { "page": null, "chunk_id": null }
+     }
+   }
+   ```
+
+#### [NEW] `package.json` Commands
+If a `package.json` doesn't exist yet, we will initialize one and add a command to run this script easily via `npm run scaffold:index`.
+
+## Open Questions
+
+> [!TIP]
+> Should the script just create *templated* JSON files (empty schema outlines ready to be filled out by the actual LLM tagging script later), or are we merging this scaffolding logic directly into the LLM tagging script (like `buildIndex.ts`) so it streams the real answers directly into these 10-shloka files instead of a single output file?
+
+## Verification Plan
+
+### Automated Tests
+- Run the scaffolding script via `npx ts-node scripts/scaffold_index.ts`.
+- Programmatically verify that 18 folder directories exist.
+- Verify that the correct number of grouped JSON files exist in each chapter based on the known lengths of the 18 chapters.
+
+### Manual Verification
+- Output a tree log of the generated `master_index` directory so you can visually confirm the structure.

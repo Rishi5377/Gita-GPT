@@ -1,0 +1,43 @@
+{
+  "shloka_id": "BG_2.6",
+  "chapter": 2,
+  "verse": "6",
+  "sanskrit": "न चैतद्विद्मः कतरन्नो गरीयो यद्वा जयेम यदि वा नो जयेयुः। यानेव हत्वा न जिजीविषामस्तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः॥",
+  "transliteration": "na caitad vidmaḥ kataran no garīyo yad vā jayema yadi vā no jayeyuḥ | yān eva hatvā na jijīviṣāmas te ’vasthitāḥ pramukhe dhārtarāṣṭrāḥ ||",
+  "literal_meaning": "We do not know which is better for us—whether we should conquer them or they conquer us. Having killed whom we would not wish to live, those very sons of Dhṛtarāṣṭra stand arrayed before us.",
+  "contextual_meaning": "Arjuna is caught in a double-approach–avoidance conflict: every option (fight/win, fight/lose, withdraw) simultaneously promises relief and threatens unbearable loss. Ego-ideal (“protect dharma”) collides with object-attachment (“they are my relatives”), producing decision-paralysis and existential dread.",
+  "themes": [
+    "Moral paralysis",
+    "Attachment",
+    "Identity diffusion",
+    "Survivor guilt",
+    "Decision anxiety"
+  ],
+  "emotions": {
+    "primary": [
+      "uncertainty",
+      "dread",
+      "guilt"
+    ],
+    "secondary": [
+      "shame",
+      "confusion",
+      "loyalty conflict"
+    ],
+    "shadow": [
+      "aggressive impulse",
+      "wish for annihilation",
+      "contempt for weakness"
+    ]
+  },
+  "psychological_state": "Acute decision-paralysis with anticipatory survivor-guilt; ego functions overwhelmed by conflicting object ties and superego mandates.",
+  "trigger_scenario": "A team-lead must choose between firing lifelong friends to save the company or letting the firm collapse; either way he fears living with the outcome.",
+  "keywords": [
+    "paralysis",
+    "no-win",
+    "survivor guilt",
+    "family loyalty",
+    "moral fog"
+  ],
+  "anchor_text": "When every choice wounds your heart, pause and ask who you are beneath the roles."
+}

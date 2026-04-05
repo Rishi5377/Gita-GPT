@@ -1,0 +1,49 @@
+{
+  "shloka_id": "BG_1.9",
+  "chapter": 1,
+  "verse": "9",
+  "sanskrit": "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः। नानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः॥",
+  "transliteration": "anye ca bahavaḥ śūrā mad-arthe tyakta-jīvitāḥ nānā-śastra-praharaṇāḥ sarve yuddha-viśāradāḥ",
+  "literal_meaning": "Many other heroes, having abandoned life for my sake, equipped with various weapons, all skilled in warfare.",
+  "contextual_meaning": "Duryodhana boasts of an army whose loyalty is so absolute that they have already psychologically died for him, illustrating how charismatic or feared leaders can mobilize others to internalize their cause as the only source of meaning, binding identity to impending self-destruction.",
+  "themes": [
+    "Loyalty",
+    "Identity Fusion",
+    "Mortality Salience",
+    "Group Cohesion",
+    "Moral Disengagement"
+  ],
+  "emotions": {
+    "primary": [
+      "Pride",
+      "Loyalty",
+      "Courage"
+    ],
+    "secondary": [
+      "Hubris",
+      "Anxiety",
+      "Moral Numbness",
+      "Existential Resolve"
+    ],
+    "shadow": [
+      "Fear of Insignificance",
+      "Death Denial",
+      "Unconscious Guilt"
+    ]
+  },
+  "psychological_state": "A person whose self-worth is fused with a charismatic leader or cause, feeling invulnerable through collective identity yet unconsciously courting annihilation.",
+  "trigger_scenario": "An employee who volunteers for excessive overtime during a company crisis, proudly declaring 'we'll sleep when we're dead,' while family relationships and personal health deteriorate.",
+  "keywords": [
+    "tyakta-jīvitāḥ",
+    "abandoned life",
+    "heroic loyalty",
+    "identity fusion",
+    "mortality salience",
+    "charismatic leadership",
+    "groupthink",
+    "moral disengagement",
+    "duryodhana-complex",
+    "self-sacrifice"
+  ],
+  "anchor_text": "Leaders who demand total loyalty trade your life for their glory."
+}

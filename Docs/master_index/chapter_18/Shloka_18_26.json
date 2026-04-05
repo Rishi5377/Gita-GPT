@@ -1,0 +1,41 @@
+{
+  "shloka_id": "BG_18.26",
+  "chapter": 18,
+  "verse": "26",
+  "sanskrit": "मुक्तसङ्गोऽनहंवादी धृत्युत्साहसमन्वितः।\nसिद्ध्यसिद्ध्योर्निर्विकारः कर्ता सात्त्विक उच्यते॥",
+  "transliteration": "mukta-saṅgo ’nahaṁ-vādī dhṛty-utsāha-samanvitaḥ |\nsiddhy-asiddhyor nirvikāraḥ kartā sāttvika ucyate ||",
+  "literal_meaning": "Detached from association / free from ‘I’-maker / endowed with steadiness & vigor / unchanged by success or failure / such a doer is called sāttvic.",
+  "contextual_meaning": "Psychological portrait of the optimally-functioning adult: secure attachment style, low neuroticism, high conscientiousness, intrinsic motivation, and antifragile self-esteem.",
+  "themes": [
+    "Self-identity",
+    "Intrinsic motivation",
+    "Antifragility",
+    "Secure attachment",
+    "Flow"
+  ],
+  "emotions": {
+    "primary": [
+      "serenity",
+      "enthusiasm"
+    ],
+    "secondary": [
+      "curiosity",
+      "confidence"
+    ],
+    "shadow": [
+      "performance-anxiety",
+      "perfectionism",
+      "fear-of-failure"
+    ]
+  },
+  "psychological_state": "Flow-state: action without self-referential rumination; dopaminergic engagement detached from outcome.",
+  "trigger_scenario": "A coder open-sources a project, codes for joy, ships v1.0, receives harsh critique, shrugs, and starts the next sprint unfazed.",
+  "keywords": [
+    "detachment",
+    "flow",
+    "intrinsic",
+    "antifragile",
+    "secure"
+  ],
+  "anchor_text": "Work with steady vigor, untouched by gain or loss."
+}

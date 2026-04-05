@@ -1,0 +1,43 @@
+{
+  "shloka_id": "BG_2.4",
+  "chapter": 2,
+  "verse": "4",
+  "sanskrit": "अर्जुन उवाच\nकथं भीष्ममहं संख्ये द्रोणं च मधुसूदन।\nइषुभिः प्रतियोत्स्यामि पूजार्हावरिसूदन॥",
+  "transliteration": "arjuna uvāca\nkathaṃ bhīṣmam ahaṃ saṃkhye droṇaṃ ca madhusūdana\niṣubhiḥ pratiyotsyāmi pūjārhāvarisūdana",
+  "literal_meaning": "Arjuna said: How (katham) can I (aham) counter-attack (pratiyotsyāmi) with arrows (iṣubhiḥ) in battle (saṃkhye) Bhīṣma and Droṇa, who are worthy of worship (pūjārha), O killer of Madhu (madhusūdana), O destroyer of foes (arisūdana)?",
+  "contextual_meaning": "Arjuna experiences acute moral-identity conflict: the same elders he has revered as internalized parental figures now stand as military targets, creating an impossible double-bind between duty (kṣatriya code) and attachment (filial piety).",
+  "themes": [
+    "Moral injury",
+    "Attachment vs Duty",
+    "Parental introjects",
+    "Cognitive dissonance",
+    "Shadow projection"
+  ],
+  "emotions": {
+    "primary": [
+      "guilt",
+      "dread",
+      "reverential fear"
+    ],
+    "secondary": [
+      "shame",
+      "confusion",
+      "loyalty"
+    ],
+    "shadow": [
+      "rage at being trapped",
+      "wish for elders' death",
+      "omnipotent responsibility"
+    ]
+  },
+  "psychological_state": "Moral-paralysis; ego-dystonic aggression blocked by superego injunctions; anticipatory survivor-guilt.",
+  "trigger_scenario": "A junior surgeon ordered to operate on her beloved mentor who is now a terminal patient; cutting the flesh feels like attacking the one who taught her to heal.",
+  "keywords": [
+    "worshipable",
+    "counterattack",
+    "how",
+    "grandfather",
+    "teacher"
+  ],
+  "anchor_text": "Honor your duty even when it demands confronting those you revere."
+}

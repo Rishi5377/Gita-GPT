@@ -1,0 +1,42 @@
+{
+  "shloka_id": "BG_4.22",
+  "chapter": 4,
+  "verse": "22",
+  "sanskrit": "यदृच्छालाभसन्तुष्टो द्वन्द्वातीतो विमत्सरः।\nसमः सिद्धावसिद्धौ च कृत्वापि न निबध्यते॥",
+  "transliteration": "yadṛcchā-lābha-santuṣṭo dvandvātīto vimatsaraḥ / samaḥ siddhāv asiddhau ca kṛtvāpi na nibadhyate",
+  "literal_meaning": "One who is content with whatever comes on its own, who has transcended the pairs-of-opposites and is free from envy, who remains balanced in success and failure, is not bound even while acting.",
+  "contextual_meaning": "A psychologically mature actor neither clings to favorable outcomes nor resists unfavorable ones; by relinquishing comparative judgment and affective volatility, action leaves no karmic imprint on the self-schema.",
+  "themes": [
+    "Equanimity",
+    "Non-attachment",
+    "Karma-yoga",
+    "Emotional regulation",
+    "Self-determination"
+  ],
+  "emotions": {
+    "primary": [
+      "Contentment",
+      "Equanimity"
+    ],
+    "secondary": [
+      "Curiosity",
+      "Gratitude"
+    ],
+    "shadow": [
+      "Envy",
+      "Fear-of-missing-out",
+      "Perfectionistic anxiety"
+    ]
+  },
+  "psychological_state": "Flow-like autonomy: actions are intrinsically motivated, ego-involvement is minimal, and locus of control is internal yet detached from outcome.",
+  "trigger_scenario": "You post creative work online—some pieces go viral, others are ignored. Instead of refreshing metrics, you close the app, take a breath, and begin the next project with the same enthusiasm.",
+  "keywords": [
+    "metrics",
+    "comparison",
+    "algorithm",
+    "validation",
+    "scrolling",
+    "dopamine"
+  ],
+  "anchor_text": "Stay calm in gain and loss, act without craving or comparison."
+}

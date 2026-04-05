@@ -1,0 +1,53 @@
+{
+  "shloka_id": "BG_1.1",
+  "chapter": 1,
+  "verse": "1",
+  "sanskrit": "धृतराष्ट्र उवाच धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः मामकाः पाण्डवाश्चैव किमकुर्वत संजय",
+  "transliteration": "dhṛtarāṣṭra uvāca dharma-kṣetre kuru-kṣetre samavetā yuyutsavaḥ māmakaḥ pāṇḍavāś caiva kim akurvata sañjaya",
+  "literal_meaning": "Dhritarashtra said: O Sanjaya, what did my sons and the sons of Pandu do, assembled in the holy field of Kurukshetra, desiring to fight?",
+  "contextual_meaning": "This verse sets the stage for the existential and moral conflict of the Gita. Dhritarashtra, as a father and ruler, embodies the psychological tension between duty (dharma) and attachment. His inquiry to Sanjaya reflects a deeper existential dread—facing the inevitability of conflict while being emotionally paralyzed by the potential loss of his kin. The sacredness of Kurukshetra amplifies the spiritual stakes, framing the war as both a physical and metaphysical battleground.",
+  "themes": [
+    "Dharma",
+    "Duty Conflict",
+    "Existential Crisis",
+    "Family Dynamics",
+    "Mortality",
+    "Power Struggle",
+    "Emotional Paralysis",
+    "Sacred Conflict"
+  ],
+  "emotions": {
+    "primary": [
+      "Anxiety",
+      "Existential Dread",
+      "Helplessness"
+    ],
+    "secondary": [
+      "Guilt",
+      "Fear of Loss",
+      "Moral Ambiguity"
+    ],
+    "shadow": [
+      "Repressed Guilt",
+      "Projection of Failure",
+      "Denial of Mortality"
+    ]
+  },
+  "psychological_state": "A leader or parent grappling with the inescapable consequences of their choices, torn between duty and emotional attachment, and paralyzed by the weight of impending conflict.",
+  "trigger_scenario": "A CEO facing a hostile takeover by a rival family, feeling duty-bound to protect their legacy but emotionally devastated by the potential destruction of relationships and values.",
+  "keywords": [
+    "Dharma",
+    "Kurukshetra",
+    "Dharma-kshetra",
+    "Pandavas",
+    "Kauravas",
+    "Sanjaya",
+    "Arjuna",
+    "Karna",
+    "Duty",
+    "Conflict",
+    "Existential Crisis",
+    "Mortality"
+  ],
+  "anchor_text": "Face conflict with clarity, not clinging."
+}

@@ -1,0 +1,49 @@
+{
+  "shloka_id": "BG_1.7",
+  "chapter": 1,
+  "verse": "7",
+  "sanskrit": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम।\nनायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते॥",
+  "transliteration": "asmākaṃ tu viśiṣṭā ye tānnibodha dvijottama |\nnāyakā mama sainyasya saṃjñārthaṃ tānbravīmi te ||",
+  "literal_meaning": "But of our side, O best of the twice-born, take note of those who are distinguished; the commanders of my army— for your information I am naming them to you.",
+  "contextual_meaning": "Duryodhana’s compulsive listing of his generals is a psychological defense: by naming protectors he tries to convert overwhelming dread into countable control, a classic cognitive-behavioral ritual of catastrophizing followed by pseudo-safety. Beneath the boast lies raw attachment anxiety—clinging to powerful others to soothe an inner void—while the public recital masks a deeper fear that none of these mighty names can ultimately shield him from moral bankruptcy and death.",
+  "themes": [
+    "Identity through Power",
+    "Attachment to Allies",
+    "Denial of Mortality",
+    "Cognitive Ritual",
+    "Shadow of Inadequacy"
+  ],
+  "emotions": {
+    "primary": [
+      "Anxiety",
+      "Pride",
+      "Desperation"
+    ],
+    "secondary": [
+      "Bravado",
+      "Insecurity",
+      "Possessiveness",
+      "Anticipatory Grief"
+    ],
+    "shadow": [
+      "Terror of Annihilation",
+      "Shame of Wrongdoing",
+      "Existential Loneliness"
+    ]
+  },
+  "psychological_state": "A person frantically inventorying their social or professional 'team' to quench an inner dread that they are fundamentally unprotected and morally adrift.",
+  "trigger_scenario": "A CEO lying awake before a hostile takeover, mentally reciting the names of board supporters and influential investors to stave off panic that the empire could collapse and expose personal corruption.",
+  "keywords": [
+    "Anxiety",
+    "Control",
+    "Attachment",
+    "Bravado",
+    "Duryodhana",
+    "Senā",
+    "Nāyaka",
+    "Catastrophizing",
+    "Shame",
+    "Mortality"
+  ],
+  "anchor_text": "Naming protectors cannot fill the inner void of fear."
+}
