@@ -1,4 +1,4 @@
-export function buildContextFromShlokas(chunks: any[], masterShloka: any) {
+export function buildContextFromShlokas(chunks: Record<string, any>[], masterShloka: Record<string, any> | null) {
   if (!masterShloka && chunks.length === 0) return "";
 
   let context = "### Bhagavad Gita Wisdom Context:\n\n";

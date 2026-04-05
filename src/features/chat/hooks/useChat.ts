@@ -73,7 +73,7 @@ export function useChat() {
           m.id === assistantId ? { ...m, isStreaming: false } : m
         )
       );
-    } catch (error) {
+    } catch {
       setMessages((prev) =>
         prev.map((m) =>
           m.id === assistantId

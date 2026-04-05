@@ -1,6 +1,6 @@
-import { NextRequest } from "next/server";
 import { ChatGroq } from "@langchain/groq";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
+
 import { StringOutputParser } from "@langchain/core/output_parsers";
 import { retrieveContext } from "@/services/database/retriever";
 import { buildContextFromShlokas } from "@/services/ai/prompts";

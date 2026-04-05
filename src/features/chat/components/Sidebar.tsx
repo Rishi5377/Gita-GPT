@@ -6,7 +6,6 @@ import {
   PanelLeftClose
 } from "lucide-react";
 import { cn } from "@/core/utils/cn";
-import { motion } from "framer-motion";
 
 interface SidebarProps {
   onNewChat: () => void;

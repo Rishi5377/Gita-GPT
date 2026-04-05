@@ -2,7 +2,7 @@
 
 import { useRef, useEffect, useState } from "react";
 import { Plus, Mic, Send, ChevronDown } from "lucide-react";
-import { cn } from "@/core/utils/cn";
+import { Plus, Mic, Send, ChevronDown } from "lucide-react";
 
 interface ChatInputProps {
   onSend: (text: string) => void;

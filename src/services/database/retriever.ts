@@ -48,7 +48,7 @@ export async function retrieveContext(query: string) {
     // 2. Identify the most dominant Shloka from the chunks
     // We look for the most frequent shloka_id in the results
     const shlokaIds = chunks
-      ?.map((c: any) => c.shloka_id)
+      ?.map((c: { shloka_id: string }) => c.shloka_id)
       .filter((id: string | null) => id !== null);
     
     let masterShloka = null;

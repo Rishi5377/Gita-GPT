@@ -73,7 +73,7 @@ export default function ChatPage() {
                       Gita-GPT
                     </h1>
                     <p className="text-xl text-muted font-serif italic max-w-lg mx-auto">
-                      "Path to identify Yourself"
+                      &quot;Path to identify Yourself&quot;
                     </p>
                   </div>
                   
