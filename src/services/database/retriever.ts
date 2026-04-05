@@ -4,7 +4,6 @@ import { env } from "@huggingface/transformers";
 
 // Documented configuration for weightless serverless environments
 env.allowLocalModels = false;
-env.remoteModels = true;
 
 let embeddingsInstance: HuggingFaceTransformersEmbeddings | null = null;
 

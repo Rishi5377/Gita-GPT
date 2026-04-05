@@ -59,9 +59,10 @@ export async function POST(req: Request) {
         "Cache-Control": "no-cache",
       },
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
+    const errorMsg = error instanceof Error ? error.message : "The Mirror is currently clouded.";
     console.error("❌ LangChain Chat API error:", error);
-    return new Response(`The Mirror is currently clouded. (Error: ${error.message})`, {
+    return new Response(errorMsg, {
       status: 500,
       headers: { "Content-Type": "text/plain" }
     });

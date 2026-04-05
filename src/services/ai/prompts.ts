@@ -1,4 +1,19 @@
-export function buildContextFromShlokas(chunks: Record<string, any>[], masterShloka: Record<string, any> | null) {
+interface GitaChunk {
+  source_type: string;
+  content: string;
+  [key: string]: unknown;
+}
+
+interface MasterShloka {
+  chapter: number;
+  verse: number;
+  anchor_text: string;
+  psychological_state: string;
+  trigger_scenario: string;
+  [key: string]: unknown;
+}
+
+export function buildContextFromShlokas(chunks: GitaChunk[], masterShloka: MasterShloka | null) {
   if (!masterShloka && chunks.length === 0) return "";
 
   let context = "### Bhagavad Gita Wisdom Context:\n\n";
