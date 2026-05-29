@@ -16,8 +16,17 @@ export async function embedQuery(query: string): Promise<number[]> {
   }
 }
 
+interface ShlokaRecord {
+  id: string;
+  chapter: number;
+  verse: string;
+  themes?: string[];
+  emotions?: string[];
+  keywords?: string[];
+}
+
 // Memory scoring function to find the most resonant Shloka
-function scoreShloka(shloka: any, intent: UserIntent) {
+function scoreShloka(shloka: ShlokaRecord, intent: UserIntent) {
   let score = 0;
   
   if (shloka.emotions) {
@@ -43,7 +52,7 @@ export async function retrieveContext(query: string) {
     const intent = await extractUserIntent(query);
     
     if (intent) {
-      let orQuery: string[] = [];
+      const orQuery: string[] = [];
       const safeString = (s: string) => s.replace(/[^a-zA-Z0-9-]/g, '');
 
       intent.emotions.forEach(exp => orQuery.push(`emotions.cs.{${safeString(exp)}}`));
