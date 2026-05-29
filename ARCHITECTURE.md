@@ -23,7 +23,7 @@ sequenceDiagram
     participant User
     participant API as Next.js Route Handler
     participant Vec as Vector DB (Supabase/Xenova)
-    participant LLM as Groq (Kimi K2)
+    participant LLM as Groq (Llama 3.3)
 
     User->>API: User Input ("I feel overwhelmed")
     API->>Vec: Generate local embedding for query
@@ -52,5 +52,5 @@ src/
 *   **AI Orchestration**: LangChain.js
 *   **Vector Engine**: Supabase (pgvector)
 *   **Embeddings**: Xenova/all-MiniLM-L6-v2 (Local Browser/Node inference)
-*   **LLM Provider**: Groq (Kimi K2 Instruct)
+*   **LLM Provider**: Groq (Llama 3.3 70B Versatile)
 *   **Styling**: Tailwind CSS 4 with Framer Motion for premium animations

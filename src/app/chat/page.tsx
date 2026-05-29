@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { MessageBubble } from "@/features/chat/components/MessageBubble";
 import { ChatInput } from "@/features/chat/components/ChatInput";
 import { Sidebar } from "@/features/chat/components/Sidebar";
@@ -13,17 +13,48 @@ import { PanelLeftOpen } from "lucide-react";
 export default function ChatPage() {
   const { messages, isLoading, sendMessage, handleNewChat, bottomRef } = useChat();
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Responsive sidebar handling
+  useEffect(() => {
+    const checkMobile = () => {
+      const mobile = window.innerWidth < 1024;
+      setIsMobile(mobile);
+      if (mobile) setIsSidebarOpen(false);
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   return (
     <div className="flex h-screen bg-background overflow-hidden font-sans antialiased text-foreground">
+      {/* Backdrop (Mobile only) */}
+      <AnimatePresence>
+        {isMobile && isSidebarOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsSidebarOpen(false)}
+            className="fixed inset-0 bg-background/60 backdrop-blur-sm z-[45]"
+          />
+        )}
+      </AnimatePresence>
+
       {/* Animated Sidebar Wrapper */}
       <motion.div 
         animate={{ 
           width: isSidebarOpen ? 260 : 0,
-          opacity: isSidebarOpen ? 1 : 0
+          opacity: isSidebarOpen ? 1 : (isMobile ? 0 : 0),
+          x: isMobile && !isSidebarOpen ? -260 : 0
         }}
         transition={{ type: "spring", damping: 30, stiffness: 300, mass: 1 }}
-        className="overflow-hidden border-r border-border h-screen sticky top-0 shrink-0 z-50 bg-sidebar"
+        className={cn(
+          "overflow-hidden border-r border-border h-screen sticky top-0 shrink-0 z-50 bg-sidebar",
+          isMobile && "fixed left-0 top-0 bottom-0 shadow-2xl"
+        )}
       >
         <div className="w-[260px] h-full">
           <Sidebar 

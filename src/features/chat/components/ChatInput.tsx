@@ -62,7 +62,7 @@ export function ChatInput({ onSend, isLoading }: ChatInputProps) {
               type="button"
               className="flex items-center gap-1.5 px-2 py-1 rounded-lg hover:bg-white/5 transition-colors text-[12px] text-muted font-medium"
             >
-              Kimi K2 <ChevronDown size={14} />
+              Llama 3.3 <ChevronDown size={14} />
             </button>
             <button
               type="button"

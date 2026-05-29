@@ -11,7 +11,7 @@ const openai = new OpenAI({
     apiKey: process.env.GROQ_API_KEY || 'MISSING_API_KEY',
 });
 
-const MODEL_NAME = 'moonshotai/kimi-k2-instruct-0905';
+const MODEL_NAME = 'llama-3.3-70b-versatile';
 
 // File paths
 const ASSETS_DIR = path.join(process.cwd(), 'Assets');

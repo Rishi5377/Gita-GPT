@@ -28,7 +28,7 @@ This document summarizes the recent refinements, security hardening, and deploym
 ---
 
 ## 🧠 Architecture & RAG
-*   **Model Selection**: Optimized for **Groq (Kimi K2)** for high-speed, reflective responses.
+*   **Model Selection**: Optimized for **Groq (Llama 3.3)** for high-speed, reflective responses.
 *   **Retrieval System**:
     *   Established a vector search pipeline using Supabase `pgvector`.
     *   Identified the "Heavy Build" bottleneck (Local Transformers) and proposed an API-based transition to reduce build times by 70%.

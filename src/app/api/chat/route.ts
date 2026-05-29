@@ -20,8 +20,8 @@ export async function POST(req: Request) {
     // 2. Initialize LangChain ChatGroq
     const model = new ChatGroq({
       apiKey: process.env.GROQ_API_KEY,
-      model: "moonshotai/kimi-k2-instruct-0905",
-      temperature: 0.7,
+      model: "llama-3.3-70b-versatile",
+      temperature: 0.2,
       streaming: true,
     });
 

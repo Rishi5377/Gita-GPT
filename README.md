@@ -9,7 +9,7 @@ Inspired by the dialogue between **Krishna** and **Arjuna**, this tool is design
 *   **Reflective AI Orchestration**: Uses a customized RAG (Retrieval-Augmented Generation) pipeline to transform Gita passages into empathetic, inquiry-based responses.
 *   **Vector Search & RAG**: Efficient similarity-based retrieval using **Supabase (pgvector)** and **Xenova/all-MiniLM-L6-v2** local embeddings.
 *   **Premium Editorial UI**: A minimalist, high-aesthetic interface built with **Next.js 15**, **Tailwind CSS 4**, and **Framer Motion**.
-*   **Real-time Streaming**: Instant conversational feedback powered by **LangChain** and **Groq (Kimi K2 Instruct)**.
+*   **Real-time Streaming**: Instant conversational feedback powered by **LangChain** and **Groq (Llama 3.3)**.
 *   **Modular Architecture**: Professional, layered directory structure for scalability and maintainability.
 
 ## 🚀 Quick Start
